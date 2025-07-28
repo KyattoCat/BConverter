@@ -2,6 +2,11 @@
 
 将Bilibili的缓存文件转换为MP4格式的GUI工具。
 
+## 测试环境
+
+- Bilibili客户端PC版1.16.5
+- Windows 10
+
 ## 安装使用
 
 ### Python环境运行
@@ -16,8 +21,6 @@
        3. 在"系统变量"中找到Path变量 → 点击"编辑"
        4. 点击"新建" → 粘贴ffmpeg的bin目录路径 → 点击"确定"
        5. 验证安装: 打开cmd输入`ffmpeg -version`，应显示版本信息
-   - Mac: `brew install ffmpeg`
-   - Linux: `sudo apt install ffmpeg`
 
 3. 安装依赖:
    ```
